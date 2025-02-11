@@ -102,7 +102,7 @@ This could be a valuable resource worth following in the future: https://sass-la
 
 ### Useful resources
 
-- https://sass-lang.com/ - This resource helped me install and set up SASS and learn the basics of SCSS to improve the organization and readability of the styles in the stylesheet.
+- https://sass-lang.com/ - This resource helped me install and set up SASS and learn the basics of SCSS to improve the organisation and readability of the styles in the stylesheet.
 
 ## Author
 
