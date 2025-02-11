@@ -1,0 +1,160 @@
+/* Custom fonts */
+@font-face {
+  font-family: Inter-Regular;
+  src: url(../assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url(../assets/fonts/static/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(../assets/fonts/static/Inter-Bold.ttf);
+}
+/* Color schemes */
+:root {
+  --Primary-color: hsl(260, 60%, 50%);
+  --Secondary-color: hsl(180, 70%, 40%);
+  --Neutral-White: hsl(0, 0%, 95%);
+  --Neutral-Grey: hsl(220, 10%, 50%);
+  --Neutral-darkGrey: hsl(220, 10%, 25%);
+  --Accent-color: hsl(220, 25%, 15%);
+  --Background-color: hsl(220, 25%, 15%);
+}
+
+/* Default margin, padding, and box-sizing for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  background: var(--Background-color);
+  color: var(--Neutral-White);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+/* Main content */
+main {
+  max-width: 1440px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 18px;
+  color: var(--Neutral-White);
+}
+main .main-content {
+  background-color: var(--Neutral-darkGrey);
+  padding: 28px 32px;
+  font-size: 14px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease;
+  /* Social media */
+}
+main .main-content .intro-section {
+  line-height: 2rem;
+  margin-bottom: 20px;
+}
+main .main-content .intro-section .avatar {
+  height: 94px;
+  width: 94px;
+  border-radius: 50%;
+  border: 2px solid var(--Primary-color);
+  transition: transform 0.3s ease;
+  object-fit: cover;
+}
+main .main-content .intro-section .avatar:hover {
+  transform: scale(1.1);
+}
+main .main-content .intro-section h3 {
+  font-family: Inter-Bold;
+  margin-top: 16px;
+  font-size: 1.5rem;
+}
+main .main-content .intro-section .location {
+  color: var(--Primary-color);
+  font-family: Inter-SemiBold;
+  font-size: 1.1rem;
+}
+main .main-content .intro-section .profession {
+  font-family: Inter-Regular;
+  margin: 8px 0 0;
+  font-size: 1rem;
+  color: var(--Neutral-Grey);
+}
+main .main-content .social-media-section {
+  margin-top: 18px;
+}
+main .main-content .social-media-section a {
+  display: block;
+  background: linear-gradient(45deg, var(--Primary-color), var(--Secondary-color));
+  margin: 18px 0;
+  padding: 12px 0;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--Neutral-White);
+  font-family: Inter-SemiBold;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+main .main-content .social-media-section a:hover {
+  transform: scale(1.05); /* Enlarge on hover */
+  background: var(--Accent-color); /* Change color on hover */
+}
+main .main-content .social-media-section a:active {
+  transform: translateY(-5px); /* Lift effect on click */
+  background-color: var(--Secondary-color);
+  color: var(--Neutral-darkGrey);
+}
+
+/* Footer */
+footer {
+  margin: 20px 0;
+  color: var(--Neutral-White);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1470px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 12px;
+  font-family: Inter-Regular;
+  text-align: center;
+  width: 100%;
+}
+
+.attribution a {
+  color: var(--Primary-color);
+  transition: color 0.3s;
+}
+.attribution a:hover {
+  color: var(--Accent-color);
+}
+
+/* Mobile design */
+@media (max-width: 425px) {
+  main {
+    max-width: 375px;
+  }
+  .main-content {
+    padding: 20px;
+  }
+  .intro-section .name {
+    font-size: 1.2rem;
+  }
+  .social-media-section a {
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
