@@ -44,14 +44,14 @@ Users should be able to:
 
 ### SCSS Setup
 
-In order to use SCSS, you need to ensure you have a SASS compiler installed. Here are a few steps to set it up:
+In order to use SCSS, you need to ensure you have a SASS compiler installed. Here are a few steps to set it up and generate the CSS:
 
 1. Install SASS via npm in the terminal:
 ```
 npm install -g sass
 ```
 
-2. Run SASS to generate the CSS code:
+2. Run SASS to generate the CSS:
 ```
 sass scss/style.scss css/style.css
 ```
