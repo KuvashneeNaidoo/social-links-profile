@@ -20,8 +20,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### The challenge
 
-Users should be able to:
-
 Users should be able to interact with the page and see hover and focus states for all clickable or interactive elements.
 
 ### Screenshot
