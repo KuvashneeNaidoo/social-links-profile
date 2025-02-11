@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/KuvashneeNaidoo/social-links-profile
-- Live Site URL: https://social-links-profile-kuvashnee.netlify.app/
+- [Solution URL](https://github.com/KuvashneeNaidoo/social-links-profile)
+- [Live Site URL](https://social-links-profile-kuvashnee.netlify.app/)
 
 ## My process
 
@@ -98,14 +98,14 @@ SCSS also helped to support variables to store reusable values like colors and f
 ### Continued development
 
 I will continue to focus on improving my SCSS skills by diving deeper into mixins to define styles that can be re-used throughout the stylesheet.
-This could be a valuable resource worth following in the future: https://sass-lang.com/documentation/at-rules/mixin/ 
+This could be a valuable resource worth following in the future: [SASS Documentation](https://sass-lang.com/documentation/at-rules/mixin/) 
 
 ### Useful resources
 
-- https://sass-lang.com/ - This resource helped me install and set up SASS and learn the basics of SCSS to improve the organisation and readability of the styles in the stylesheet.
+- [SASS Documentation](https://sass-lang.com/) - This resource helped me install and set up SASS and learn the basics of SCSS to improve the organisation and readability of the styles in the stylesheet.
 
 ## Author
 
-- Website - https://kuvashnee-naidoo-portfolio.netlify.app/
-- Frontend Mentor - https://www.frontendmentor.io/profile/KuvashneeNaidoo
-- Twitter - https://x.com/kuvashnee
+- [Website](https://kuvashnee-naidoo-portfolio.netlify.app/)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/KuvashneeNaidoo)
+- [Twitter](https://x.com/kuvashnee)
